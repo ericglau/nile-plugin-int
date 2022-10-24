@@ -9,7 +9,7 @@ from nile.cli import cli
 RESOURCES_DIR = Path(__file__).parent / "resources"
 
 def test_deploy_upgrade_proxy():
-    script = RESOURCES_DIR / "scripts" / "deploy_upgrade_proxy.py"
+    script = RESOURCES_DIR / "scripts" / "script.py"
 
     # Run test script
     result = CliRunner().invoke(cli, ["run", str(script)])

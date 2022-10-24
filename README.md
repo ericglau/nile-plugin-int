@@ -1,8 +1,7 @@
 ### Installation
 
 1. Install [Poetry](https://python-poetry.org/docs/#installation)
-2. Clone https://github.com/OpenZeppelin/nile
-3. Clone this project.
+2. Clone this project.
 4. From this project's root, setup venv and install dependencies:
 ```
 python3 -m venv env
