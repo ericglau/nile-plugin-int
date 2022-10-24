@@ -13,3 +13,7 @@ pip3 install -e .
 ### Testing
 
 `poetry run pytest tests`
+
+### Running manually
+
+`nile run tests/resources/scripts/script.py`
